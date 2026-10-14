@@ -1,0 +1,8 @@
+order_id,customer_id,order_date,status,payment_method
+O1001,C001,2026-09-01,Delivered,UPI
+O1002,C002,2026-09-02,Shipped,Card
+O1003,C003,2026-09-03,Processing,COD
+O1004,C004,2026-15-40,Placed,UPI
+O1005,C005,2026-09-06,Delivered,Card
+O1006,C006,2026-09-07,Cancelled,UPI
+O1002,C002,2026-09-02,Shipped,Card

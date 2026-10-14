@@ -1,0 +1,7 @@
+customer_id,name,city,state,signup_date,segment
+C001,Aarav Sharma,Jaipur,Rajasthan,2025-01-12,Regular
+C002,Meera Patel,Ahmedabad,Gujarat,2025-02-03,Premium
+C003,Kabir Singh,Delhi,Delhi,2025-02-18,Regular
+C004,Ananya Rao,,Karnataka,2025-03-07,New
+C005,Ishaan Verma,Pune,Maharashtra,2025-04-21,Premium
+C006,Meera Patel,Surat,Gujarat,2025-02-03,Premium
