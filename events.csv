@@ -1,0 +1,9 @@
+event_id,order_id,event_time,event_type,source
+E001,O1001,2026-09-01T10:15:00,order_placed,web
+E002,O1001,2026-09-01T12:30:00,packed,warehouse
+E003,O1001,2026-09-03T09:00:00,shipped,courier
+E004,O1002,2026-09-02T11:00:00,order_placed,mobile_app
+E005,O1002,2026-09-05T14:20:00,shipped,courier
+E006,O1003,2026-09-03T16:45:00,order_placed,web
+E007,O1005,2026-09-10T08:30:00,delivered,courier
+E007,O1005,2026-09-10T08:30:00,delivered,courier
