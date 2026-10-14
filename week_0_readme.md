@@ -35,7 +35,7 @@ The files use a retail/e-commerce scenario so later exercises can build on the s
 - An invalid date in `orders.csv` (`2026-15-40`).
 - A negative quantity in `order_items.csv`.
 - A late-arriving event: the delivery event for order `O1005` is dated after the order date and appears later in the event history.
-- A changed customer attribute: customer `C002` appears with a different city in the sample records (`customers.csv`). Treat this as a scenario to investigate rather than assuming which value is correct.
+- A changed customer attribute: customer `C002` appears with a different city in the sample records (`customers.csv`).
 
 
 ## Expected Outcome
