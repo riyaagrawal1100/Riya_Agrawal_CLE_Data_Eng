@@ -1,0 +1,5 @@
+customer_id,name,city,state,signup_date,segment,rejection_reason
+C102,Priya Verma,Delhi,Delhi,2026-02-10,Premium,duplicate_customer_id
+C102,Duplicate Customer,Delhi,Delhi,2026-05-01,Regular,duplicate_customer_id
+C105,,Kota,Rajasthan,2026-04-20,Regular,missing_name
+C106,Karan Mehta,Jaipur,Rajasthan,not-a-date,Regular,invalid_date_signup_date

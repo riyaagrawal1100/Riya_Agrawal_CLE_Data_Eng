@@ -1,0 +1,5 @@
+event_id,order_id,event_time,event_type,source,rejection_reason
+E503,O202,2026-06-02T14:00:00,shipped,warehouse,duplicate_event_id
+E503,O204,2026-06-04T12:00:00,shipped,warehouse,duplicate_event_id
+E505,O205,invalid-time,delivered,courier,invalid_date_event_time
+,O206,2026-06-05T08:00:00,order_placed,mobile_app,missing_event_id

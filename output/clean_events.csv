@@ -1,0 +1,3 @@
+event_id,order_id,event_time,event_type,source
+E501,O201,2026-06-01T10:15:00,order_placed,website
+E502,O201,2026-06-01T10:30:00,payment_received,payment_gateway
