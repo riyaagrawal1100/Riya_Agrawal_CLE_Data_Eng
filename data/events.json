@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "E501",
+    "order_id": "O201",
+    "event_time": "2026-06-01T10:15:00",
+    "event_type": "order_placed",
+    "source": "website"
+  },
+  {
+    "event_id": "E502",
+    "order_id": "O201",
+    "event_time": "2026-06-01T10:30:00",
+    "event_type": "payment_received",
+    "source": "payment_gateway"
+  },
+  {
+    "event_id": "E503",
+    "order_id": "O202",
+    "event_time": "2026-06-02T14:00:00",
+    "event_type": "shipped",
+    "source": "warehouse"
+  },
+  {
+    "event_id": "E503",
+    "order_id": "O204",
+    "event_time": "2026-06-04T12:00:00",
+    "event_type": "shipped",
+    "source": "warehouse"
+  },
+  {
+    "event_id": "E505",
+    "order_id": "O205",
+    "event_time": "invalid-time",
+    "event_type": "delivered",
+    "source": "courier"
+  },
+  {
+    "event_id": "",
+    "order_id": "O206",
+    "event_time": "2026-06-05T08:00:00",
+    "event_type": "order_placed",
+    "source": "mobile_app"
+  }
+]
