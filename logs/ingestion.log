@@ -1,0 +1,8 @@
+2026-10-22 14:05:06,473 - INFO - customers: read 6 rows
+2026-10-22 14:05:06,490 - INFO - customers: 2 valid, 4 rejected
+2026-10-22 14:05:06,490 - INFO - events: read 6 rows
+2026-10-22 14:05:06,497 - INFO - events: 2 valid, 4 rejected
+2026-10-22 19:44:38,235 - INFO - customers: read 6 rows
+2026-10-22 19:44:38,247 - INFO - customers: 2 valid, 4 rejected
+2026-10-22 19:44:38,248 - INFO - events: read 6 rows
+2026-10-22 19:44:38,255 - INFO - events: 2 valid, 4 rejected
