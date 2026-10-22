@@ -1,0 +1,41 @@
+{
+  "log_file": "logs/ingestion.log",
+  "summary_output": "output/run_summary.csv",
+  "datasets": {
+    "customers": {
+      "format": "csv",
+      "input_path": "data/customers.csv",
+      "valid_output": "output/clean_customers.csv",
+      "rejected_output": "output/rejected_customers.csv",
+      "key_column": "customer_id",
+      "required_columns": [
+        "customer_id",
+        "name",
+        "city",
+        "state",
+        "signup_date",
+        "segment"
+      ],
+      "date_columns": {
+        "signup_date": "%Y-%m-%d"
+      }
+    },
+    "events": {
+      "format": "json",
+      "input_path": "data/events.json",
+      "valid_output": "output/clean_events.csv",
+      "rejected_output": "output/rejected_events.csv",
+      "key_column": "event_id",
+      "required_columns": [
+        "event_id",
+        "order_id",
+        "event_time",
+        "event_type",
+        "source"
+      ],
+      "date_columns": {
+        "event_time": "%Y-%m-%dT%H:%M:%S"
+      }
+    }
+  }
+}
